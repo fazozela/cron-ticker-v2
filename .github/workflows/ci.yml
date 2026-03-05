@@ -26,6 +26,6 @@ jobs:
           echo "App: ${{env.APP_NAME}}, Node: ${{env.NODE_VERSION}}"
 
       - name: Build
-        run: npm run vuild
+        run: npm run build
         env:
           APP_VERSION: "3.0.0"
